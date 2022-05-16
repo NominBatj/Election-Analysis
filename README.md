@@ -1,9 +1,9 @@
 # Election Analysis
 ## Overview of Project
-The purpose of the project is to analyze election audit of local congressional election in Colorado using programming tools: Python and Visual Studio Code and submit the result tp election commision.
+The purpose of the project is to analyze election audit of local congressional election in Colorado using programming tools: Python and Visual Studio Code and submit the result to election commision.
 ## Election Audit Results 
 The Electoral Commission requested additional analysis of the election data. Voter turnout count questions for each county that voted in the constituency. How to calculate the percentage of votes cast by each constituency in an election. We also were asked to determine which district had the largest turnout.
-We created a python script where we performed calculations on the counts, used loops and if conditional statements to make a report to our analysis.
+We created a python script where we performed calculations on the counts, used loops and if-conditional statements to make a report to our analysis.
 
 ![for loops](https://user-images.githubusercontent.com/66500222/168440982-745579f0-5f15-4296-b6af-d02f11c3fb20.png)
 
@@ -45,3 +45,4 @@ Here is the output of the code:
 
 
 ## Election Audit Summary
+Using loops and decision operators, the script looks up how many candidates got, how many votes, percentages and calculates who won by printing these results to a text file.This script can be modified and used in all levels of elections, for example, if we analyze the presidential elections, we probably will need to extend the dataset and will most likely include state data as well as county data, so there will be a whole different column for states. The analysis of presidential elections may also require an Electoral College data set. We can use if-statements in scenario where once a county received many popular votes, it would automatically need to be assigned electoral college votes. Also, we can use script to determine a rank of candidates by preference on their ballots. If the candidate receives a majority of the first preference votes, he or she is declared the winner. If no candidate receives a majority of first preference votes, the candidate with the fewest first preference votes is eliminated. First preference votes cast for a failed candidate are eliminated and the second preference votes listed on those ballots are cancelled. A new count is made to determine if any candidate has won the majority of the adjusted votes. The process is repeated until the candidate wins an absolute majority.
